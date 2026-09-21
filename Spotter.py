@@ -25,7 +25,7 @@ Outputs:
 Then score with:
     python score.py --predictions validation_predictions.csv \
                     --december-predictions december_chart_inputs.csv
-    python make_report.py          # builds the DOCX report from results.json + the two charts
+    python make_report.py          # builds the PDF report from results.json + the two charts
 """
 
 import json
