@@ -1,0 +1,10 @@
+# assessment data is not committed; see README
+data/
+*.csv
+# but keep the two submitted output files
+!validation_predictions.csv
+!december_chart_inputs.csv
+!requirements.txt
+__pycache__/
+.ipynb_checkpoints/
+scorer_results/
